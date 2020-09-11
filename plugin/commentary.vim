@@ -157,12 +157,12 @@ if !hasmapto('<Plug>Commentary') || maparg('gc','n') ==# ''
     nmap cgc <Plug>(ChangeCommentary)
   endif
   nmap gcu <Plug>(Commentary)<Plug>(Commentary)
-  xmap gcy   <Plug>(CommentaryYank)
-  nmap gcy   <Plug>(CommentaryYank)
-  nmap gcyy  <Plug>(CommentaryYankLine)
-  xmap gcd   <Plug>(CommentaryDupe)
-  nmap gcd   <Plug>(CommentaryDupe)
-  nmap gcdd  <Plug>(CommentaryDupeLine)
+  " xmap gcy   <Plug>(CommentaryYank)
+  " nmap gcy   <Plug>(CommentaryYank)
+  " nmap gcyy  <Plug>(CommentaryYankLine)
+  " xmap gcd   <Plug>(CommentaryDupe)
+  " nmap gcd   <Plug>(CommentaryDupe)
+  " nmap gcdd  <Plug>(CommentaryDupeLine)
 endif
 
 " vim:set et sw=2:
