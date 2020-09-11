@@ -163,6 +163,9 @@ if !hasmapto('<Plug>Commentary') || maparg('gc','n') ==# ''
   " xmap gcd   <Plug>(CommentaryDupe)
   " nmap gcd   <Plug>(CommentaryDupe)
   " nmap gcdd  <Plug>(CommentaryDupeLine)
+  xmap gC   <Plug>(CommentaryDupe)
+  nmap gC   <Plug>(CommentaryDupe)
+  nmap gCC  <Plug>(CommentaryDupeLine)
 endif
 
 " vim:set et sw=2:
